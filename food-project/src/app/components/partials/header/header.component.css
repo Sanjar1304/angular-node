@@ -1,0 +1,23 @@
+header {
+  position: relative;
+  background: #fff;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+a {
+  color: #af1313;
+}
+
+a:hover{
+  background: #e72929;
+  transform: translateY(-5px);
+  color: #fff;
+  cursor: pointer;
+}
+
+.container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
