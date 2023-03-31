@@ -9,15 +9,61 @@ a {
   color: #af1313;
 }
 
-a:hover{
+a:hover {
   background: #e72929;
   transform: translateY(-5px);
   color: #fff;
   cursor: pointer;
 }
 
-.container{
+.container {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+
+a.logo {
+  font-weight: bold;
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+
+ul a {
+  padding: 1rem;
+  display: inline-block;
+}
+
+a span {
+  background: #ff4040;
+  color: #fff;
+  padding: 0.1rem 0.45rem;
+  border-radius: 50%;
+  font-size: .9rem;
+}
+
+.menu-container {
+  position: relative;
+}
+
+.menu-list {
+  position: absolute;
+  z-index: 1;
+  background: whitesmoke;
+  display: none;
+}
+
+.menu-container:hover .menu-list {
+  display: block;
+}
+
+.menu-item {
+  width: 100%;
+  min-width: 8rem;
 }
