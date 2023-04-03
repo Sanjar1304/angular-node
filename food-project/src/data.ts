@@ -14,14 +14,14 @@ export const sample_foods: Food[] = [
   },
   {
     id: '2',
-    name: 'Melon',
-    price: 9,
+    name: 'Pizza Vegetables',
+    price: 250,
     cookTime: '40-50',
-    favorite: false,
-    origins: ['india', 'asia'],
-    stars: 3.0,
+    favorite: true,
+    origins: ['italy', 'europe'],
+    stars: 4.0,
     imageUrl: 'assets/food-2.jpg',
-    tags: ['SlowFood', 'Soup']
+    tags: ['SlowFood', 'Pizza Vegetables']
   },
   {
     id: '3',
@@ -36,14 +36,14 @@ export const sample_foods: Food[] = [
   },
   {
     id: '4',
-    name: 'Rolton',
+    name: 'Pizza Paperoni',
     price: 9,
     cookTime: '10-20',
     favorite: false,
     origins: ['russia', 'europe'],
     stars: 3.0,
     imageUrl: 'assets/food-4.jpg',
-    tags: ['FastFood', 'Rolton']
+    tags: ['FastFood', 'Pizza Paperoni']
   },
   {
     id: '5',
