@@ -17,6 +17,7 @@ import { CartPageComponent } from './components/pages/cart-page/cart-page.compon
 import { TitleComponent } from './components/partials/title/title.component';
 import { NotFoundComponent } from './components/partials/not-found/not-found.component';
 import { LoginComponent } from './components/pages/login/login.component';
+import { InputContainerComponent } from './components/partials/input-container/input-container.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { LoginComponent } from './components/pages/login/login.component';
     CartPageComponent,
     TitleComponent,
     NotFoundComponent,
-    LoginComponent
+    LoginComponent,
+    InputContainerComponent
   ],
   imports: [
     BrowserModule,
