@@ -19,6 +19,7 @@ import { NotFoundComponent } from './components/partials/not-found/not-found.com
 import { LoginComponent } from './components/pages/login/login.component';
 import { InputContainerComponent } from './components/partials/input-container/input-container.component';
 import { InputValidationComponent } from './components/partials/input-validation/input-validation.component';
+import { TextInputComponent } from './components/partials/text-input/text-input.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { InputValidationComponent } from './components/partials/input-validation
     NotFoundComponent,
     LoginComponent,
     InputContainerComponent,
-    InputValidationComponent
+    InputValidationComponent,
+    TextInputComponent
   ],
   imports: [
     BrowserModule,
